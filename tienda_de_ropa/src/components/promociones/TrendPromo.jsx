@@ -1,12 +1,29 @@
 import React from 'react'
+import './trendpromo.css';
 
 const TrendPromo = () => {
   return (
-    <div className='sliderPromo'>
-        <div className="promo1">
-
+    <>
+        <div className='sliderPromo'>
+            <div className="promo1">
+                <img src="" alt="" className="imgpromo" />
+                <div className="detallepromo">
+                    <h3>Recomendaciones</h3>
+                    <h2>Women Blue Denim</h2>
+                    <span className="price">$3.99</span>
+                </div>
+            </div>
+            {/* <div className="promo2">
+                <img src="" alt="" className="imgpromo" />
+                <div className="detallepromo">
+                    <h3>Recomendaciones</h3>
+                    <h2>Women Blue Denim</h2>
+                    <span className="price">$3.99</span>
+                </div>
+            </div> */}
         </div>
-    </div>
+        <center>tres puntitos</center>
+    </>
   )
 }
 

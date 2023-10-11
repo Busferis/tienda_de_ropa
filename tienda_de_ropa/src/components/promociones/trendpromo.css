@@ -1,0 +1,23 @@
+.sliderPromo{
+    height: 96%;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.promo1, .promo2{
+    position: relative;
+    padding: 14px;
+    height: 96%;
+    flex: 0 0 100%;
+    width: 100%;
+    background: blue;
+    position: relative;
+    border-radius: 44px;
+}
+
+.detallepromo{
+    position: absolute;
+    bottom: 20px;
+}

@@ -1,0 +1,10 @@
+.buscador{
+    width: 90%;
+    height: 60px;
+    background-color: red;
+}
+
+.promo{
+    height: 60vh;
+    overflow: hidden;
+}
