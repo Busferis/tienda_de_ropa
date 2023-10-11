@@ -2,7 +2,11 @@ import React from 'react'
 
 const TrendPromo = () => {
   return (
-    <div>TrendPromo</div>
+    <div className='sliderPromo'>
+        <div className="promo1">
+
+        </div>
+    </div>
   )
 }
 

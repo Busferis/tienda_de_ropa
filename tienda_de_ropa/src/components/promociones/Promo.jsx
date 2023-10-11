@@ -2,7 +2,7 @@ import React from 'react'
 
 function Promo() {
   return (
-    <div className='sliderPromo'>
+    <div className='promo'>
         <Buscador />
         <TrendPromo />
     </div>
