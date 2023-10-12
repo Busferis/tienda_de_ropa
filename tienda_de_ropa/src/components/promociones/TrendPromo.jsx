@@ -8,8 +8,8 @@ const TrendPromo = () => {
             <div className="promo1">
                 <img src="" alt="" className="imgpromo" />
                 <div className="detallepromo">
-                    <h3>Recomendaciones</h3>
-                    <h2>Women Blue Denim</h2>
+                    <h4 className='op40'>Recomendaciones</h4>
+                    <h1>Women Blue Denim</h1>
                     <span className="price">$3.99</span>
                 </div>
             </div>

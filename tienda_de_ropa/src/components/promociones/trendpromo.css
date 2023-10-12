@@ -22,3 +22,11 @@
     position: absolute;
     bottom: 20px;
 }
+
+.price{
+    font-size: 1.4em;
+}
+
+.op40{
+    opacity: 0.4;
+}
