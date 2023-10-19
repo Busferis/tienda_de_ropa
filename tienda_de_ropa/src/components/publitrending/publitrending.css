@@ -1,4 +1,9 @@
+.trendingitem{
+    display: flex;
+    gap: 10px;
+}
 .trending{
+    padding: 14px;
     display: flex;
     flex-direction: column;
 }
@@ -16,7 +21,6 @@
 .minipublimg{
     height: 70%;
     overflow: hidden;
-    object-fit: 1 / 1;
 }
 .minipubli img{
     height: 110px;
