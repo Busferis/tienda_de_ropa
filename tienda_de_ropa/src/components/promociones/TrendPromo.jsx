@@ -1,16 +1,20 @@
 import React from 'react'
 import './trendpromo.css';
+import ropa from '../../data/pilcha.json';
+
+let preciof = ropa[0].precio - (ropa[0].precio * (ropa[0].descuento / 100));
 
 const TrendPromo = () => {
   return (
     <>
         <div className='sliderPromo'>
             <div className="promo1">
-                <img src="" alt="" className="imgpromo" />
+                <img src={ropa[0].url} alt="" className="imgpromo" />
                 <div className="detallepromo">
                     <h4 className='op40'>Recomendaciones</h4>
-                    <h1>Women Blue Denim</h1>
-                    <span className="price">$3.99</span>
+                    <h1>{ropa[0].nombre}</h1>
+                    <span className="price">$ {preciof} </span>
+                    <span className="oldprice">$ {ropa[0].precio}</span>
                 </div>
             </div>
             {/* <div className="promo2">

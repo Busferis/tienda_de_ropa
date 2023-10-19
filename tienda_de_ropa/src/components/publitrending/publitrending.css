@@ -1,0 +1,31 @@
+.trending{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+.minipubli{
+    aspect-ratio: 2 / 3;
+    width: 110px;
+    overflow: hidden;
+    background-color: yellow;
+}
+
+.minipublimg{
+    height: 70%;
+    overflow: hidden;
+    object-fit: 1 / 1;
+}
+.minipubli img{
+    height: 110px;
+    width: 100%;
+    object-fit: cover;
+}
+.minpubli .price{
+    font-size: 1.2em!important;
+}
+.minpubli .oldprice{
+    font-size: 0.9em!important;
+}

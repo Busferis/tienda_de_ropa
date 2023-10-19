@@ -8,23 +8,32 @@
 
 .promo1, .promo2{
     position: relative;
-    padding: 14px;
+    /* padding: 14px; */
     height: 96%;
     flex: 0 0 100%;
     width: 100%;
     background: blue;
     position: relative;
     border-radius: 44px;
+    overflow: hidden;
 }
 
 .detallepromo{
     color: white;
     position: absolute;
     bottom: 20px;
+    padding: 0 20px;
+    background-color:   rgba(0, 0, 0, 0.244);
 }
 
 .price{
     font-size: 1.4em;
+}
+
+.oldprice{
+    margin-left: 5px;
+    font-size: 1.1em;
+    text-decoration: line-through;
 }
 
 .op40{
