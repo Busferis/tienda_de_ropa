@@ -1,7 +1,7 @@
 [
   { "key": "001",
     "nombre": "Women Blue Denim",
-    "precio": 36,
+    "precio": 36.00,
     "descuento": 20,
     "talles": ["S", "M", "L", "XL", "XXL"],
     "genero": "Mujer",
@@ -11,7 +11,7 @@
   },
   { "key": "002",
     "nombre": "Men Blue Denim",
-    "precio": 36,
+    "precio": 36.00,
     "descuento": 20,
     "talles": ["S", "M", "L", "XL", "XXL"],
     "genero": "Mujer",

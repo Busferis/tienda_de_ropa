@@ -1,0 +1,17 @@
+.title{
+    display: flex;
+}
+.bloques{
+    padding: 10px 18px;
+}
+.bloque{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.categorias2{
+    color: darkgray;
+}

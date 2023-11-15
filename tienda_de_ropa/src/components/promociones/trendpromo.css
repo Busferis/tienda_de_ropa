@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(243, 243, 243);
+}
+
 .sliderPromo{
     height: 96%;
     width: 100%;
@@ -26,16 +30,45 @@
     background-color:   rgba(0, 0, 0, 0.244);
 }
 
+.precio{
+    display: flex;
+    align-items: center;
+}
+
 .price{
     font-size: 1.4em;
+    color: lightskyblue;
 }
 
 .oldprice{
-    margin-left: 5px;
+    margin-left: 10px;
     font-size: 1.1em;
     text-decoration: line-through;
+    color: darkgray;
 }
 
 .op40{
     opacity: 0.4;
+}
+
+.tres_puntitos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    margin-top: -5px;
+}
+
+.punto{
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+    background-color: skyblue;
+}
+
+.puntoGrande{
+    height: 14px;
+    width: 14px;
+    border-radius: 100%;
+    background-color: dodgerblue;
 }

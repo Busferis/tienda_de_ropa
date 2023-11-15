@@ -3,23 +3,26 @@
     gap: 10px;
 }
 .trending{
-    padding: 14px;
+    padding: 0 14px 14px 14px;
     display: flex;
     flex-direction: column;
 }
 .title{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 14px;
 }
 .minipubli{
     aspect-ratio: 2 / 3;
-    width: 110px;
+    width: 130px;
     overflow: hidden;
-    background-color: yellow;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px -15px;
 }
 
 .minipublimg{
-    height: 70%;
+    /* height: 70%; */
     overflow: hidden;
 }
 .minipubli img{
@@ -32,4 +35,8 @@
 }
 .minpubli .oldprice{
     font-size: 0.9em!important;
+}
+
+.detallemini{
+    padding: 0 10px;
 }

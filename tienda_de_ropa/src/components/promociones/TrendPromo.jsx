@@ -13,8 +13,10 @@ const TrendPromo = () => {
                 <div className="detallepromo">
                     <h4 className='op40'>Recomendaciones</h4>
                     <h1>{ropa[0].nombre}</h1>
-                    <span className="price">$ {preciof} </span>
-                    <span className="oldprice">$ {ropa[0].precio}</span>
+                    <div className="precio">
+                        <span className="price">${preciof} </span>
+                        <span className="oldprice">${ropa[0].precio}</span>
+                    </div>
                 </div>
             </div>
             {/* <div className="promo2">
@@ -26,7 +28,11 @@ const TrendPromo = () => {
                 </div>
             </div> */}
         </div>
-        <center>tres puntitos</center>
+        <div className="tres_puntitos">
+            <div className="punto"></div>
+            <div className="puntoGrande"></div>
+            <div className="punto"></div>
+        </div>
     </>
   )
 }
