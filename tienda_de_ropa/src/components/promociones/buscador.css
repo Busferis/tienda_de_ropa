@@ -12,17 +12,26 @@
 }
 
 input[type=search]{
-    background-color: transparent;
+    background-color: rgba(70,130,180,0.45);
     outline: none;
     border: none;
     height: 44px;
     width: calc(100% - 44px);
+    color: rgba(255, 255, 255, 0.712);
 }
 
 input[type=submit]{
     height: 44px;
     width: 44px;
     border: none;
-    background-color: transparent;
+    background-color: rgba(70,130,180,0.45);
     cursor: pointer;
+}
+
+input::placeholder{
+    color: rgba(255, 255, 255, 0.712);
+}
+
+.white{
+    color: rgba(255, 255, 255, 0.712);
 }

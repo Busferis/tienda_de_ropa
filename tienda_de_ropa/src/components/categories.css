@@ -1,9 +1,9 @@
 .title{
     display: flex;
 }
-.bloques{
+/* .bloques{
     padding: 10px 18px;
-}
+} */
 .bloque{
     height: 60px;
     width: 100%;
@@ -14,4 +14,15 @@
 }
 .categorias2{
     color: darkgray;
+}
+.flecha{
+    height: 20px;
+    width: 20px;
+}
+.search{
+    height: 20px;
+    width: 20px;
+}
+.categories{
+    padding: 0 14px 14px 14px
 }
