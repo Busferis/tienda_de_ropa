@@ -7,10 +7,13 @@
 .bloque{
     height: 60px;
     width: 100%;
-    background-color: white;
     display: flex;
     align-items: center;
-    border-radius: 10px;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+.categorias{
+    color: black;
 }
 .categorias2{
     color: darkgray;
@@ -25,4 +28,20 @@
 }
 .categories{
     padding: 0 14px 14px 14px
+}
+.material-icons-outlined{
+    color: black;
+}
+h2,h3,h4{
+    color: black;
+}
+.bloque1{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.holocomogalletas{
+    margin-left: 170px;
 }

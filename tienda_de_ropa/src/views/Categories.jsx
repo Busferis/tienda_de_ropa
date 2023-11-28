@@ -9,25 +9,34 @@ function Categories() {
         <a href="#">Show All</a>
       </div>
       <div className="bloques">
-        <div className="bloque">
-          <span className="material-icons-outlined">face_4</span>
-          <div className="categorias">
-            Woman
+        <div className="bloque1">
+          <div className="bloque">
+            <span className="material-icons-outlined">face_4</span>
+            <div className="categorias">
+              Woman
+            </div>
+            <div className="categorias2">
+              (728 items)
+            </div>
+            
           </div>
-          <div className="categorias2">
-            (728 items)
+          <div className="holocomogalletas">
+            <span className="material-icons-outlined">arrow_forward_ios</span>
           </div>
-          <span className="material-icons-outlined">arrow_forward_ios</span>
         </div>
-        <div className="bloque">
-          <span className="material-icons-outlined">face</span>
-          <div className="categorias">
-            Man
+        <div className="bloque1">
+          <div className="bloque">
+            <span className="material-icons-outlined">face</span>
+            <div className="categorias">
+              Man
+            </div>
+            <div className="categorias2">
+              (536 items)
+            </div>
           </div>
-          <div className="categorias2">
-            (536 items)
+          <div className="holocomogalletas">
+            <span className="material-icons-outlined">arrow_forward_ios</span>
           </div>
-          <span className="material-icons-outlined">arrow_forward_ios</span>
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@
     overflow: hidden;
     display: flex;
     z-index: 10;
-    border-radius: 14px;
+    border-radius: 12px;
 }
 
 input[type=search]{
@@ -26,12 +26,9 @@ input[type=submit]{
     border: none;
     background-color: rgba(70,130,180,0.45);
     cursor: pointer;
+    color: white;
 }
 
 input::placeholder{
-    color: rgba(255, 255, 255, 0.712);
-}
-
-.white{
     color: rgba(255, 255, 255, 0.712);
 }
