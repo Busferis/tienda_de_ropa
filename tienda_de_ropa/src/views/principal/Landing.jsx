@@ -1,5 +1,5 @@
 import React from 'react';
-import Promo from '../components/promociones/Promo';
+import Promo from '../../components/promociones/Promo';
 import Trending from './Trending';
 import Categories from './Categories';
 

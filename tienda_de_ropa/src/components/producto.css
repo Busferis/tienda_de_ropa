@@ -1,0 +1,103 @@
+.portada {
+    position: relative;
+    /* padding: 14px; */
+    height: 96%;
+    flex: 0 0 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.promo_2{
+    height: 60vh;
+    overflow: hidden;
+    border-radius: 44px;
+    background: blue;
+}
+.sliderPromo2{
+    height: 96%;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+.tresPuntos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    margin-top: -10px;
+}
+.puntito{
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+    background-color: skyblue;
+}
+.puntoGrande2{
+    height: 14px;
+    width: 14px;
+    border-radius: 100%;
+    background-color: dodgerblue;
+}
+.color{
+    display: flex;
+    gap: 25px;
+}
+.whiteCircle{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 100%;
+}
+.grayCircle{
+    height: 25px;
+    width: 25px;
+    background-color: gray;
+    border: 1px blue;
+    border-radius: 100%;
+}
+.blackCircle{
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 100%;
+}
+.blueCircle{
+    height: 25px;
+    width: 25px;
+    background-color: blue;
+    border-radius: 100%;
+}
+.barra{
+    display: flex;
+    height: 30px;
+    background-color: gray;
+    align-items: center;
+}
+.boton{
+    display: flex;
+    height: 30px;
+    width: 90px;
+    align-items: center;
+    justify-content: center;
+}
+.botonAzul{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.menu{
+    padding: 0 17px;
+}
+.cart{
+    display: flex;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}

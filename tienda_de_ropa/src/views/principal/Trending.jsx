@@ -1,6 +1,6 @@
 import React from 'react'
-import PubliTrending from "../components/publitrending/PubliTrending"
-import '../components/publitrending/publitrending.css'
+import PubliTrending from "../../components/publitrending/PubliTrending"
+import '../../components/publitrending/publitrending.css'
 
 function Trending() {
   return (
