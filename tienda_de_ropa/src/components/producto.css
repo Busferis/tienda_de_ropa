@@ -1,7 +1,6 @@
 .portada {
     position: relative;
     /* padding: 14px; */
-    height: 96%;
     flex: 0 0 100%;
     width: 100%;
     position: relative;
@@ -21,27 +20,32 @@
     scroll-snap-type: x mandatory;
 }
 .tresPuntos{
+    position: absolute;
     display: flex;
+    width: 100%;
+    gap: 13px;
+    margin-top: 360px;
+    z-index: 100;
+    /* bottom: 0; */
     justify-content: center;
     align-items: center;
-    gap: 13px;
-    margin-top: -10px;
 }
 .puntito{
     height: 8px;
     width: 8px;
     border-radius: 100%;
-    background-color: skyblue;
+    background-color: lightgray;
 }
 .puntoGrande2{
     height: 14px;
     width: 14px;
     border-radius: 100%;
-    background-color: dodgerblue;
+    background-color: white;
 }
 .color{
     display: flex;
     gap: 25px;
+    margin-bottom: 10px;
 }
 .whiteCircle{
     height: 25px;
@@ -71,8 +75,10 @@
 .barra{
     display: flex;
     height: 30px;
-    background-color: gray;
+    background-color: rgb(194, 194, 194);
     align-items: center;
+    margin-bottom: 15px;
+    border-radius: 5px;
 }
 .boton{
     display: flex;
@@ -80,24 +86,56 @@
     width: 90px;
     align-items: center;
     justify-content: center;
+    color: rgb(125, 125, 125);
 }
 .botonAzul{
     display: flex;
     height: 40px;
     width: 40px;
-    background-color: blue;
+    background-color: rgb(0, 64, 255);
     align-items: center;
     justify-content: center;
     color: white;
+    border-radius: 5px;
 }
 .menu{
-    padding: 0 17px;
+    padding: 0 17px 15px;
 }
 .cart{
     display: flex;
     height: 40px;
-    background-color: blue;
+    background-color: rgb(0, 64, 255);
     color: white;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
+}
+.precio2{
+    color: black;
+    font-size: 1.6em;
+}
+.precio3{
+    margin-left: 10px;
+    font-size: 1.1em;
+    text-decoration: line-through;
+    color: darkgray;
+}
+.precios{
+    display: flex;
+    align-items: center;
+}
+.black{
+    color: black;
+}
+.barra2{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    padding: 25px;
+    justify-content: space-between;
+}
+.icono{
+    font-size: 2em;
+    color: white;
 }
